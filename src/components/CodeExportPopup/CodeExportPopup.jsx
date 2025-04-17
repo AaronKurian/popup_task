@@ -22,7 +22,7 @@ const CodeExportPopup = ({ onClose }) => {
             <p>Manage how you download your website's code.</p>
           </div>
           <button className="close-button" onClick={onClose}>
-            <IoClose size={20} color="grey" />
+            <IoClose size={23} color="grey" />
           </button>
         </div>
         
@@ -48,7 +48,7 @@ const CodeExportPopup = ({ onClose }) => {
                 <div className="html-content">
                   <div className="export-option">
                     <div className="icon">
-                      <SiHtml5 size={20} color="white" />
+                    <SiHtml5 size={20} color="rgba(255, 255, 255, 0.8)" />
                     </div>
                     <div className="export-details">
                       <span>Export as HTML & CSS</span>
@@ -74,16 +74,16 @@ const CodeExportPopup = ({ onClose }) => {
                   <div className="export-option">
                     
                     <div className="icon">
-                      <SiReact size={20} color="white" />
+                      <SiReact size={18} color="#D1D1D1" />
                     </div>
                     <div className="export-details">
-                      <span>Export as Next.JS Project</span>
+                      <span>Export as Next JS Project</span>
                     </div>
                   </div>
                       <div className="export-badge">Zipped</div>
                       <div className="checkboxes">
                         <Checkbox 
-                          label="Use 'app' directory (Next.JS v13+)" 
+                          label="Use `app` directory (NextJS v13+)" 
                           checked={useAppDir}
                           onChange={() => setUseAppDir(!useAppDir)}
                         />
