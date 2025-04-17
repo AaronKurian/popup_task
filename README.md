@@ -1,12 +1,28 @@
-# React + Vite
+# Code Export Popup Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based popup component for exporting code, built with Vite and plain CSS. This project implements a clean and modern UI for code export with responsive design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clean and modern UI design
+- Tab-based content switching (HTML and NextJS)
+- Smooth transitions and animations
+- Responsive design
+- Custom checkbox component
+- Custom button component
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Plain CSS
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Deployment
+
+Visit the live demo at: [https://popup-task-rose.vercel.app/](https://popup-task-rose.vercel.app/)
+
+## License
+
+This project is licensed under the [MIT License ](LICENSE.md).
+
