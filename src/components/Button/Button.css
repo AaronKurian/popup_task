@@ -1,0 +1,43 @@
+.button {
+    min-width: 130px;
+    height: 32px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Nunito Sans', 'Kumbh Sans';
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(180deg, #444444 0%, #333333 100%);
+    color: white;
+    letter-spacing: 0.03em;
+    line-height: 100%;
+    transition: all 4s ease;
+    animation: fadeIn 4s ease;
+  }
+  
+  .button-text {
+    font-family: 'Nunito Sans', 'Kumbh Sans';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  
+  .button.primary {
+    background: linear-gradient(180deg, #444444 0%, #333333 100%);
+    color: white;
+  }
+  
+  .button.primary:hover {
+    background: linear-gradient(180deg, #555555 0%, #444444 100%);
+    border: 1px solid rgba(177, 148, 148, 0.1);
+    box-shadow: 1.5px 2.5px 4px rgba(0, 0, 0, 0.3);
+  }
